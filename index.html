@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Моя презентация — Журнал событий</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-size: 2.2em;
+    }
+    .date-header {
+      background: #ecf0f1;
+      padding: 10px 15px;
+      border-left: 5px solid #3498db;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #2c3e50;
+    }
+    .content-block {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+    }
+    .prediction-list, .faq-answer, .code-snippet, .math-result, .file-link {
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 0.95em;
+    }
+    .prediction-list strong { color: #2980b9; }
+    .faq-answer { border-left: 4px solid #2ecc71; }
+    .code-snippet { background: #2d2d2d; color: #f8f8f2; }
+    .math-result { background: #fffde7; border-left: 4px solid #ffc107; }
+    .file-link a {
+      display: inline-block;
+      margin: 5px 0;
+      padding: 8px 12px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    .file-link a:hover {
+      background: #2980b9;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin: 10px 0;
+    }
+    .footer-note {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📅 Журнал событий — Март–Май 2026</h1>
+
+    <!-- 14 февраля -->
+    <div class="date-header">14 февраля 2026</div>
+    <div class="content-block">
+      <p><strong>Топ-3 предсказаний:</strong></p>
+      <div class="prediction-list">
+        running shoe: 99.45%<br/>
+        shoe store: 0.27%<br/>
+        clogs: 0.15%
+      </div>
+      <div class="prediction-list">
+        bison: 50.56%<br/>
+        hyena: 10.53%<br/>
+        llama: 6.75%
+      </div>
+      <div class="prediction-list">
+        acoustic guitar: 91.21%<br/>
+        electric guitar: 4.73%<br/>
+        cello: 3.16%
+      </div>
+    </div>
+
+    <!-- 16 февраля -->
+    <div class="date-header">16 февраля 2026</div>
+    <div class="content-block">
+      <p><strong>Вопрос пользователя:</strong> Сколько ждать мой заказ?</p>
+      <p><strong>Найден FAQ-вопрос:</strong> Как оплатить заказ? (sim=0.719)</p>
+      <div class="faq-answer">
+        Ответ бот-FAQ: Вы можете оплатить заказ онлайн через наш сайт или при получении.
+      </div>
+    </div>
+
+    <!-- 18 февраля -->
+    <div class="date-header">18 февраля 2026</div>
+    <div class="content-block">
+      <div class="code-snippet">
+        with open("/home/user/2025/201C/Enigme1.txt", "r") as f:<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;encoded_data = f.read().strip()<br/><br/>
+        decoded_message = ''.join(chr(int(code)) for code in encoded_data.split())<br/>
+        print(decoded_message)
+      </div>
+      <p style="margin-top: 15px;">
+        У каждого поколения есть свой философ, писатель или художник...  
+        <em>У нашего поколения есть философ. Он не художник и не писатель. Он программист.</em>
+      </p>
+    </div>
+
+    <!-- 21 февраля -->
+    <div class="date-header">21 февраля 2026</div>
+    <div class="content-block">
+      <p><strong>Соответствие букв и цифр:</strong></p>
+      <div class="math-result">
+        D = 7<br/>
+        E = 5<br/>
+        M = 1<br/>
+        N = 6<br/>
+        O = 0<br/>
+        R = 8<br/>
+        S = 9<br/>
+        Y = 2
+      </div>
+      <p><strong>Проверка:</strong></p>
+      <div class="math-result">
+        &nbsp;&nbsp;9567 &nbsp;(SEND)<br/>
+        +1085 &nbsp;(MORE)<br/>
+        ------<br/>
+        10652 &(MONEY)
+      </div>
+    </div>
+
+    <!-- 25 февраля -->
+    <div class="date-header">25 февраля 2026</div>
+    <div class="content-block">
+      <div class="math-result">
+        0.004166666666666667<br/>
+        4.166666666666667<br/>
+        4.17<br/>
+        -0.0033333333333329662<br/>
+        3333.333333332966<br/><br/>
+        0.008000000000000007<br/>
+        0.008
+      </div>
+      <p><strong>Честное округление (Random Error):</strong></p>
+      <div class="math-result">
+        4.162 → 4.16 (остаток: +0.00200)<br/>
+        4.168 → 4.17 (остаток: -0.00200)<br/>
+        4.174 → 4.17 (остаток: +0.00400)<br/>
+        4.179 → 4.18 (остаток: -0.00100)
+      </div>
+      <p><strong>Усечение / Truncation (Systematic Bias):</strong></p>
+      <div class="math-result">
+        4.162 → 4.16 (остаток: +0.00200)<br/>
+        4.168 → 4.16 (остаток: +0.00800)<br/>
+        4.174 → 4.17 (остаток: +0.00400)<br/>
+        4.179 → 4.17 (остаток: +0.00900)
+      </div>
+    </div>
+
+    <!-- 7 марта -->
+    <div class="date-header">7 марта 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть презентацию:<br/>
+      <a href="p8-23.pptx">🎉 Праздничная презентация</a>
+    </div>
+
+    <!-- 18 марта -->
+    <div class="date-header">18 марта 2026</div>
+    <div class="content-block">
+      Студент занимался 5 часов<br/>
+      <strong>Прогноз баллов: 76.40</strong>
+    </div>
+
+    <!-- 21 марта -->
+    <div class="date-header">21 марта 2026</div>
+    <div class="content-block">
+      <div class="math-result">
+        0.69<br/>
+        ИТОГОВАЯ ТОЧНОСТЬ МОДЕЛИ: 100.00%
+      </div>
+    </div>
+
+    <!-- 23 марта -->
+    <div class="date-header">23 марта 2026</div>
+    <div class="content-block">
+      <div class="math-result">
+        Ошибка на обучении (MSE): 0.01911675618660641<br/>
+        Ошибка на тесте (MSE): 0.025744155921950018<br/><br/>
+        === РЕЗУЛЬТАТЫ С 4 ПРИЗНАКАМИ ===<br/>
+        Ошибка на обучении (MSE): 0.008628450309747055<br/>
+        Ошибка на тесте (MSE): 0.010729224686258814
+      </div>
+      <p><em>алгоритм нейросети неинтерпретируем на человеческом уровне</em></p>
+    </div>
+
+    <!-- 28 марта -->
+    <div class="date-header">28 марта 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть изображение:<br/>
+      <img src="drawio.png" alt="Схема drawio.png"/>
+    </div>
+
+    <!-- 30 марта -->
+    <div class="date-header">30 марта 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть изображение:<br/>
+      <img src="14.drawio.png" alt="Схема 14.drawio.png"/>
+    </div>
+
+    <!-- 8 апреля -->
+    <div class="date-header">8 апреля 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть изображение:<br/>
+      <img src="555.drawio.png" alt="Схема 555.drawio.png"/>
+    </div>
+
+    <!-- 15 апреля -->
+    <div class="date-header">15 апреля 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть изображение:<br/>
+      <img src="zaeb.drawio.png" alt="Схема zaeb.drawio.png"/>
+    </div>
+
+    <!-- 18 апреля -->
+    <div class="date-header">18 апреля 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть изображение:<br/>
+      <img src="zaeb2.drawio.png" alt="Схема zaeb2.drawio.png"/>
+    </div>
+
+    <!-- 23 апреля -->
+    <div class="date-header">23 апреля 2026</div>
+    <div class="content-block">
+      <p><strong>Сравнение структур данных:</strong></p>
+      <ul>
+        <li><strong>Список:</strong> Простота, последовательный доступ, но нет быстрого поиска по ключу</li>
+        <li><strong>Массив:</strong> Быстрый доступ по индексу, фиксированная структура, экономия памяти</li>
+        <li><strong>Словарь:</strong> Быстрый поиск O(1) по ключу, естественное представление иерархии, гибкость структуры</li>
+      </ul>
+    </div>
+
+    <!-- 28 апреля -->
+    <div class="date-header">28 апреля 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть презентацию:<br/>
+      <a href="33">gh</a> <!-- Возможно, здесь опечатка в имени файла -->
+    </div>
+
+    <!-- 5 мая -->
+    <div class="date-header">5 мая 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть:<br/>
+      <a href="lll.xlsx">📊 таблица</a>
+    </div>
+
+    <!-- 13 мая -->
+    <div class="date-header">13 мая 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть:<br/>
+      <a href="0135"> таблица</a> <!-- Возможно, это должен быть .xlsx или .csv -->
+    </div>
+
+    <!-- 18 мая -->
+    <div class="date-header">18 мая 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть:<br/>
+      <a href="ABCD.xlsx">📈 таблицаABCD</a>
+    </div>
+
+    <!-- 20 мая -->
+    <div class="date-header">20 мая 2026</div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть:<br/>
+      <a href="tabl.docx">📄 таблица задач</a>
+    </div>
+
+    <!-- Финальные ссылки -->
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть презентацию:<br/>
+      <a href="Сетьбводный pрtx"> Презентация в формате .pptxe/a> <!-- Исправлено ниже -->
+    </div>
+    <div class="content-block file-link">
+      Нажмите, чтобы скачать или открыть index.html:<br/>
+      <a href="index.html">✅ Файл проверки работы с кириллицей .html</a>
+    </div>
+
+    <!-- Исправленная ссылка (предположительно) -->
+    <div class="content-block file-link">
+      <a href="Сеть_вводный.pptx">️ Презентация "Сеть вводный" (.pptx)</a>
+    </div>
+
+    <div class="footer-note">
+      © 2026 — Журнал событий. Все права защищены.
+    </div>
+  </div>
+</body>
+</html>
